@@ -1,0 +1,11 @@
+{
+  "name": "Jira Totals",
+  "version": "1.0",
+  "description": "Totals the number of work hours on Jira",
+  "content_scripts": [
+    {
+      "matches": ["http://jira.splunk.com/*"],
+      "js": ["jira_totals.js"]
+    }
+  ]
+}
